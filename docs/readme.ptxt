@@ -1,0 +1,125 @@
+termite
+-------
+
+Contents:
+
+1 About
+2 Usage and Parameters
+  2.1 Requirements and installation
+  2.2 Parameter settings
+3 Getting the source
+4 Credits
+5 License
+
+
+
+-------
+1 About
+-------
+
+termite is a track set. It has narrow gauge and metro tracks.
+
+
+
+----------------------
+2 Usage and Parameters
+----------------------
+
+2.1 Requirements and installation
+---------------------------------
+
+This NewGRF requires OpenTTD 1.2.0 (r23758) or newer.
+
+This set does not provide metro or narrow gauge vehicles.
+In order to use the track types from this set, you must load
+one or more vehicle sets that provide suitable vehicles.
+
+Install this NewGRF as per usual, see http://wiki.openttd.org/NewGRF
+
+
+2.2 Parameter settings
+----------------------
+
+The following parameter settings are available:
+
+[0] Interface style
+	0: OpenGFX (default)
+	1: TTD
+[1] Allow other trains on metro tracks
+	0: Off
+	1: Unelectrified rail only
+	2: Electrified rail only
+	3: Both (un)electrified rail (default)
+[2] Metro level crossings
+	0: Disallowed (default)
+	1: Allowed
+[3] Custom metro signals
+	0: Disabled
+	1: Enabled (default)
+
+
+--------------------
+3 Getting the source
+--------------------
+
+The source code can be obtained from the #openttdcoop DevZone at
+    http://dev.openttdcoop.org/projects/termite
+or via mercurial checkout
+    hg clone http://hg.openttdcoop.org/termite
+
+For instructions on how to build from source, consult the file 
+docs/building_from_source.txt contained with the source files.
+
+
+
+---------
+4 Credits
+---------
+
+Idea:
+	andythenorth
+
+Code and general putting together:
+	FooBar
+	All base code is borrowed from the Metro Track Set.
+
+Graphics:
+	OpenGFX is used as a base for a lot of graphics in this set:
+		Specifically mentioned here are Zephyris, Bubersson and LordAzamath.
+	The metro track graphics are from the Metro Track Set:
+		The third rail graphics are by Purno.
+		The metro signals are by FooBar.
+	The narrow gauge tracks are from Narrow Gauge Track Types 1.0 by Oberhumer:
+		Graphics in this set are byDandan, Onodera, Sanchimaru for the Japan Set.
+	Some graphics are borrowed from Transport Tycoon Deluxe, a game without which
+	this set would have never existed, by Chris Sawyer with graphics from Simon Foster.
+		Use of these graphics is considered fair use.
+
+Build framework:
+	Ingo von Borstel (aka planetmaker)
+
+Source hosting:
+	#openttdcoop and especially Ammler
+
+
+
+---------------
+5 License
+---------------
+
+termite, an OpenTTD track set
+Copyright (C) 2014 FooBar and others
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this NewGRF; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.

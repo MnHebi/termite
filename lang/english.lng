@@ -23,10 +23,10 @@ str_param_customsignals_desc    :Enable (default) or disable custom signals for 
 
 str_param_otherengines_name     :Allow other trains on metro tracks
 str_param_otherengines_desc     :Select what other train types (by railtype) to allow on metro tracks. Trains will only be powered if a compatible power source is available on the metro track of choice. This feature only works correctly for default and supported track sets. Currently supported: Dutch Tracks.
-str_param_otherengines_off      :Off (default)
+str_param_otherengines_off      :Off
 str_param_otherengines_RAIL     :Unelectrified rail only
 str_param_otherengines_ELRL     :Electrified rail only
-str_param_otherengines_RAILELRL :Both (un)electrified rail
+str_param_otherengines_RAILELRL :Both (un)electrified rail (default)
 
 #metro track strings
 str_metrotrack_name                             :Metro Track
