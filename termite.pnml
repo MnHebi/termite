@@ -24,6 +24,7 @@
 
 #include "src/signals.pnml"
 #include "src/metro.pnml"
+#include "src/narrowgauge.pnml"
 
 //#include "src/othervehicles.pnml"
 

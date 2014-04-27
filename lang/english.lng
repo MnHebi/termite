@@ -15,10 +15,10 @@ str_param_gui_desc              :Select style of the buttons and cursors provide
 str_param_opengfx               :OpenGFX
 str_param_ttd                   :TTD
 
-str_param_levelcrossings_name   :Level crossings
+str_param_levelcrossings_name   :Metro level crossings
 str_param_levelcrossings_desc   :Allow or disallow (default) construction of level crossings with metro track.
 
-str_param_customsignals_name    :Custom signals
+str_param_customsignals_name    :Custom metro signals
 str_param_customsignals_desc    :Enable (default) or disable custom signals for metro track types.
 
 str_param_otherengines_name     :Allow other trains on metro tracks
@@ -35,3 +35,11 @@ str_metrotrack_menu_text                        :Metro track construction
 str_metrotrack_build_window_caption             :New Metro Vehicles
 str_metrotrack_autoreplace_text                 :Metro Vehicles
 str_metrotrack_new_engine_text                  :metro
+
+#narrowgauge track strings
+str_narrowgauge_name                            :Narrow Gauge Track
+str_narrowgauge_toolbar_caption                 :Narrow Gauge Track Construction
+str_narrowgauge_menu_text                       :Narrow Gauge track construction
+str_narrowgauge_build_window_caption            :New Narrow Gauge Vehicles
+str_narrowgauge_autoreplace_text                :Narrow Gauge Vehicles
+str_narrowgauge_new_engine_text                 :narrow gauge
