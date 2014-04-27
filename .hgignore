@@ -1,0 +1,13 @@
+# Use glob syntax:
+syntax: glob
+
+mynewgrf*
+
+parsetab.py
+custom_tags.txt
+docs/readme.txt
+
+Makefile_gfx
+Makefile_gfx.dep
+Makefile.fordist
+*.scm
