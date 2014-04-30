@@ -91,6 +91,10 @@ switch (FEAT_RAILTYPES, SELF, switch_narrowgauge_level_crossings_param_gui, para
     switch_narrowgauge_level_crossings_opengfx;
 }
 
+spriteset (spriteset_narrowgauge_depot, "gfx/ngrail_opengfx.png") {
+    template_depots(10,890)
+}
+
 if (railtype_available("NAAN") || (loading_stage == LOADING_STAGE_RESERVE)) {
 	//count number of activated railtypes
 	param_railtype_activated = param_railtype_activated + 1;
@@ -148,7 +152,7 @@ if (railtype_available("NAAN") || (loading_stage == LOADING_STAGE_RESERVE)) {
 			//catenary_pylons
 			bridge_surfaces:            switch_narrowgauge_bridge_surfaces_param_gui;
 			level_crossings:            switch_narrowgauge_level_crossings_param_gui;
-			//depot:
+			depots:						spriteset_narrowgauge_depot;
 			//fences:
 			//tunnel_overlay:
 			//signals:

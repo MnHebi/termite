@@ -91,6 +91,10 @@ switch (FEAT_RAILTYPES, SELF, switch_level_crossings_param_gui, param_gui) {
     switch_metro_level_crossings_opengfx;
 }
 
+spriteset (spriteset_metro_depot, "gfx/ogfx_railtypes.png") {
+    template_depots(10,890)
+}
+
 if (railtype_available("SAA3") || (loading_stage == LOADING_STAGE_RESERVE)) {
 	//count number of activated railtypes
 	param_railtype_activated = param_railtype_activated + 1;
@@ -163,7 +167,7 @@ if (railtype_available("SAA3") || (loading_stage == LOADING_STAGE_RESERVE)) {
 			//catenary_pylons
 			bridge_surfaces:            switch_bridge_surfaces_param_gui;
 			level_crossings:            switch_level_crossings_param_gui;
-			//depot:
+			depots:						spriteset_metro_depot;
 			//fences:
 			//tunnel_overlay:
 			signals:                    switch_signals;
