@@ -13,7 +13,7 @@ str_no_free_slots       :No hi ha llocs lliures per a nous tipus de via. S'ha ca
 str_some_disabled       :No hi ha suficients llocs lliures per a nous tipus de via. S'ha carregat un o més NewGRF que afegeixen nous tipus de via i no deixen espai suficient per als que afegeix "termite". Un o més tipus de via dels que proporciona "termite" no estan disponibles. Considera treure'n algun, o treure "termite".
 
 str_param_gui_name              :Estil d'interfície
-str_param_gui_desc              :Selecciona l'estil dels botons i cursors que proporciona aquest NewGRF. Això també s'aplica a l'estil de via.
+str_param_gui_desc              :Selecciona l'estil dels botons i cursors que proporciona aquest NewGRF.
 str_param_opengfx               :OpenGFX
 str_param_ttd                   :TTD
 

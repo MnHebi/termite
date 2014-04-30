@@ -12,7 +12,7 @@ str_no_free_slots       :Geen vrije railtype posities. Je hebt een of meer ander
 str_some_disabled       :Niet genoeg railtype posities. Je hebt een of meer andere spoorsets geladen die niet genoeg ruimte over laten voor termite. Een of meerdere spoortypen van deze set zijn niet beschikbaar. Overweeg om andere spoorsets te verwijderen, of termite te verwijderen.
 
 str_param_gui_name              :Interfacestijl
-str_param_gui_desc              :Selecteer de stijl van knoppen en muisaanwijzers die worden voorzien door deze set. Ook van toepassing op uiterlijk van sporen.
+str_param_gui_desc              :Selecteer de stijl van knoppen en muisaanwijzers die worden voorzien door deze set.
 str_param_opengfx               :OpenGFX
 str_param_ttd                   :TTD
 
