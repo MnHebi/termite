@@ -5,7 +5,9 @@
 #Main grf title and description
 STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}termite{}{}{BLACK}Devorando tus vías desde 2014.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/termite
 
+str_low_version         :Estas usando una versión antigua de OpenTTD. Actualízate (a ser posible a la 1.4 ó posteriores) para poder disfrutar de todas las características de este NewGRF.
 #str_no_railtypes_enabled:All railtypes disabled. It doesn't make sense to load this set if you disable all its railtypes. Review the parameter settings or remove termite from the NewGRF configuration.
 
 str_param_opengfx               :OpenGFX
