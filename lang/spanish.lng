@@ -15,9 +15,11 @@ str_param_ttd                   :TTD
 
 
 
+str_param_otherengines_name     :Permite otros trenes en las vías del metro
 
 #metro track strings
 str_metrotrack_toolbar_caption                  :Construcción de vías de metro
 str_metrotrack_menu_text                        :Construcción de vías de metro
+str_metrotrack_new_engine_text                  :metro
 
 #narrowgauge track strings
