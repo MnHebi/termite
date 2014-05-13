@@ -10,12 +10,14 @@ STR_GRF_URL             :http://dev.openttdcoop.org/projects/termite
 str_low_version         :Estas usando una versión antigua de OpenTTD. Actualízate (a ser posible a la 1.4 ó posteriores) para poder disfrutar de todas las características de este NewGRF.
 #str_no_railtypes_enabled:All railtypes disabled. It doesn't make sense to load this set if you disable all its railtypes. Review the parameter settings or remove termite from the NewGRF configuration.
 
+str_param_gui_name              :Estilo de la interfaz
 str_param_opengfx               :OpenGFX
 str_param_ttd                   :TTD
 
 
 
 str_param_otherengines_name     :Permite otros trenes en las vías del metro
+str_param_otherengines_off      :Apagado
 
 #metro track strings
 str_metrotrack_toolbar_caption                  :Construcción de vías de metro
