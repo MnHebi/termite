@@ -14,12 +14,14 @@ str_param_gui_name              :Estilo de la interfaz
 str_param_opengfx               :OpenGFX
 str_param_ttd                   :TTD
 
+str_param_levelcrossings_name   :Paso/s a nivel de Metro
 
 
 str_param_otherengines_name     :Permite otros trenes en las vías del metro
 str_param_otherengines_off      :Apagado
 
 #metro track strings
+str_metrotrack_name                             :Vía/s de Metro
 str_metrotrack_toolbar_caption                  :Construcción de vías de metro
 str_metrotrack_menu_text                        :Construcción de vías de metro
 str_metrotrack_new_engine_text                  :metro
