@@ -24,6 +24,8 @@ str_param_otherengines_off      :Apagado
 str_metrotrack_name                             :Vía/s de Metro
 str_metrotrack_toolbar_caption                  :Construcción de vías de metro
 str_metrotrack_menu_text                        :Construcción de vías de metro
+str_metrotrack_build_window_caption             :Nuevos Vehículos de Metro
+str_metrotrack_autoreplace_text                 :Vehículos de Metro
 str_metrotrack_new_engine_text                  :metro
 
 #narrowgauge track strings
