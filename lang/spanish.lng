@@ -9,6 +9,7 @@ STR_GRF_URL             :http://dev.openttdcoop.org/projects/termite
 
 str_low_version         :Estas usando una versión antigua de OpenTTD. Actualízate (a ser posible a la 1.4 ó posteriores) para poder disfrutar de todas las características de este NewGRF.
 #str_no_railtypes_enabled:All railtypes disabled. It doesn't make sense to load this set if you disable all its railtypes. Review the parameter settings or remove termite from the NewGRF configuration.
+str_some_disabled       :No hay suficientes slots de ferrocarril. Has cargado uno o más sets ferroviarios que no dejan slots de ferrocarril suficientes para el NewGRF Termite. Por todo lo anterior, uno o más tipos de rail de este set no están disponibles. Considera quitar otros sets ferroviarios o eliminar Termite para solventar el problema.
 
 str_param_gui_name              :Estilo de la interfaz
 str_param_opengfx               :OpenGFX
