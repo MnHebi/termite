@@ -30,3 +30,5 @@ str_metrotrack_autoreplace_text                 :Vehículos de Metro
 str_metrotrack_new_engine_text                  :metro
 
 #narrowgauge track strings
+str_narrowgauge_build_window_caption            :Nuevos Vehículos de Vía Estrecha
+str_narrowgauge_autoreplace_text                :Vehículos de Vía Estrecha
