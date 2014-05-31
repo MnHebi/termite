@@ -20,6 +20,7 @@ str_param_levelcrossings_name   :Paso/s a nivel de Metro
 
 str_param_otherengines_name     :Permite otros trenes en las vías del metro
 str_param_otherengines_off      :Apagado
+str_param_otherengines_ELRL     :Solo el ferrocarril electrificado
 
 #metro track strings
 str_metrotrack_name                             :Vía/s de Metro
@@ -30,5 +31,8 @@ str_metrotrack_autoreplace_text                 :Vehículos de Metro
 str_metrotrack_new_engine_text                  :metro
 
 #narrowgauge track strings
+str_narrowgauge_name                            :Vía/s Estrecha/s
+str_narrowgauge_toolbar_caption                 :Construcción de Vías Estrechas
+str_narrowgauge_menu_text                       :Construcción de Vías Estrechas
 str_narrowgauge_build_window_caption            :Nuevos Vehículos de Vía Estrecha
 str_narrowgauge_autoreplace_text                :Vehículos de Vía Estrecha
