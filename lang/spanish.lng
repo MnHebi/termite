@@ -23,6 +23,7 @@ str_param_otherengines_name     :Permite otros trenes en las vías del metro
 str_param_otherengines_off      :Apagado
 str_param_otherengines_RAIL     :Solo el ferrocarril sin electrificar
 str_param_otherengines_ELRL     :Solo el ferrocarril electrificado
+str_param_otherengines_RAILELRL :Ambos ferrocarriles, con y sin electricidad (por defecto)
 
 #metro track strings
 str_metrotrack_name                             :Vía/s de Metro
