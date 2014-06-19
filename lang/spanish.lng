@@ -17,6 +17,7 @@ str_param_opengfx               :OpenGFX
 str_param_ttd                   :TTD
 
 str_param_levelcrossings_name   :Paso/s a nivel de Metro
+str_param_levelcrossings_desc   :Permite o deshabilita (por defecto) la construcción de pasos a nivel con vías de metro.
 
 str_param_customsignals_name    :Señales de metro a medida
 
