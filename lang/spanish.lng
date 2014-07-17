@@ -24,6 +24,7 @@ str_param_customsignals_name    :Señales de metro a medida
 str_param_customsignals_desc    :Activa (por defecto) o desactiva las señales personalizadas para las vías de metro.
 
 str_param_otherengines_name     :Permite otros trenes en las vías del metro
+str_param_otherengines_desc     :Selecciona que otros tipos de trenes (por tipo de vía) podran usarse en las vías del metro. Los trenes solo obtendran energia si una fuente de alimentación compatible está disponible en la vía de metro elegida. Esta característica solo funciona correctamente por defecto y en los sets de vías soportados. Tipos soportados actualmente: Vías Holandesas (Dutch Tracks).
 str_param_otherengines_off      :Apagado
 str_param_otherengines_RAIL     :Solo el ferrocarril sin electrificar
 str_param_otherengines_ELRL     :Solo el ferrocarril electrificado
