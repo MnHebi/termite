@@ -23,6 +23,9 @@ Makefile.local
 # NML intermediate files
 parsetab.py
 
+# Ignore directories from bundle creation / install:
+termite-*
+
 # Dependency files:
 .version
 Makefile.dep
