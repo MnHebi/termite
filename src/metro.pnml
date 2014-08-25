@@ -21,46 +21,46 @@ switch (FEAT_RAILTYPES, SELF, switch_metro_gui, param_gui) {
 spriteset (spriteset_metro_track_overlay_opengfx, "gfx/ogfx_railtypes.png") {
     template_track_overlay(10,20)
 }
-spriteset (spriteset_metro_track_overlay_ttd, "gfx/ttd_railtypes.png") {
+/* spriteset (spriteset_metro_track_overlay_ttd, "gfx/ttd_railtypes.png") {
     template_track_overlay(10,20)
 }
 switch (FEAT_RAILTYPES, SELF, switch_track_overlay_param_gui, param_gui) {
     1                       :spriteset_metro_track_overlay_ttd;
     spriteset_metro_track_overlay_opengfx;
-}
+}*/ 
 
 spriteset (spriteset_metro_underlay_opengfx, "gfx/ogfx_railtypes.png") {
     template_underlay(10,60)
 }
-spriteset (spriteset_metro_underlay_ttd, "gfx/ttd_railtypes.png") {
+/* spriteset (spriteset_metro_underlay_ttd, "gfx/ttd_railtypes.png") {
     template_underlay(10,60)
 }
 switch (FEAT_RAILTYPES, SELF, switch_underlay_param_gui, param_gui) {
     1                       :spriteset_metro_underlay_ttd;
     spriteset_metro_underlay_opengfx;
-}
+} */
 
 spriteset (spriteset_metro_tunnels_opengfx, "gfx/ogfx_railtypes.png") {
     template_tunnels(330,460)
 }
-spriteset (spriteset_metro_tunnels_ttd, "gfx/ttd_railtypes.png") {
+/* spriteset (spriteset_metro_tunnels_ttd, "gfx/ttd_railtypes.png") {
     template_tunnels(330,460)
 }
 switch (FEAT_RAILTYPES, SELF, switch_tunnels_param_gui, param_gui) {
     1                       :spriteset_metro_tunnels_ttd;
     spriteset_metro_tunnels_opengfx;
-}
+} */
 
 spriteset (spriteset_metro_bridge_surfaces_opengfx, "gfx/ogfx_railtypes.png") {
     template_bridge_surfaces(10,300)
 }
-spriteset (spriteset_metro_bridge_surfaces_ttd, "gfx/ttd_railtypes.png") {
+/* spriteset (spriteset_metro_bridge_surfaces_ttd, "gfx/ttd_railtypes.png") {
     template_bridge_surfaces(10,300)
 }
 switch (FEAT_RAILTYPES, SELF, switch_bridge_surfaces_param_gui, param_gui) {
     1                       :spriteset_metro_bridge_surfaces_ttd;
     spriteset_metro_bridge_surfaces_opengfx;
-}
+} */
 
 spriteset (spriteset_metro_level_crossings_opengfx_open, "gfx/ogfx_railtypes.png") {
     template_bridge_level_crossings_track(10,630)
@@ -74,7 +74,7 @@ switch (FEAT_RAILTYPES, SELF, switch_metro_level_crossings_opengfx, level_crossi
     LEVEL_CROSSING_CLOSED: spriteset_metro_level_crossings_opengfx_closed;
     spriteset_metro_level_crossings_opengfx_open;
 }
-spriteset (spriteset_metro_level_crossings_ttd_open, "gfx/ttd_railtypes.png") {
+/* spriteset (spriteset_metro_level_crossings_ttd_open, "gfx/ttd_railtypes.png") {
     template_bridge_level_crossings_track(10,630)
     template_bridge_level_crossings_light(10,430)
 }
@@ -89,6 +89,10 @@ switch (FEAT_RAILTYPES, SELF, switch_metro_level_crossings_ttd, level_crossing_s
 switch (FEAT_RAILTYPES, SELF, switch_level_crossings_param_gui, param_gui) {
     1                       :switch_metro_level_crossings_ttd;
     switch_metro_level_crossings_opengfx;
+} */
+
+spriteset (spriteset_metro_depot, "gfx/ogfx_railtypes.png") {
+    template_depots(10,890)
 }
 
 if (railtype_available("SAA3") || (loading_stage == LOADING_STAGE_RESERVE)) {
@@ -156,14 +160,14 @@ if (railtype_available("SAA3") || (loading_stage == LOADING_STAGE_RESERVE)) {
 		
 		graphics {
 			gui:                        switch_metro_gui;
-			track_overlay:              switch_track_overlay_param_gui;
-			underlay:                   switch_underlay_param_gui;
-			tunnels:                    switch_tunnels_param_gui;
+			track_overlay:              spriteset_metro_track_overlay_opengfx;
+			underlay:                   spriteset_metro_underlay_opengfx;
+			tunnels:                    spriteset_metro_tunnels_opengfx;
 			//catenary_wire:
 			//catenary_pylons
-			bridge_surfaces:            switch_bridge_surfaces_param_gui;
-			level_crossings:            switch_level_crossings_param_gui;
-			//depot:
+			bridge_surfaces:            spriteset_metro_bridge_surfaces_opengfx;
+			level_crossings:            switch_metro_level_crossings_opengfx;
+			depots:						spriteset_metro_depot;
 			//fences:
 			//tunnel_overlay:
 			signals:                    switch_signals;
