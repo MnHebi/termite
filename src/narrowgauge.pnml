@@ -115,13 +115,13 @@ if (railtype_available("NAAN") || (loading_stage == LOADING_STAGE_RESERVE)) {
 			compatible_railtype_list:       ["NABN", "NACN", "NADN", "NAEN"];
 			//powered_railtype_list:
 		}
-		
+
 		//OpenTTD 1.1 19307
 		property {
-			construction_cost:          6;
+			construction_cost:          5;
 			map_colour:                 0x25;
 		}
-		
+
 		//OpenTTD 1.1 21866
 		/*
 		property {
@@ -131,18 +131,18 @@ if (railtype_available("NAAN") || (loading_stage == LOADING_STAGE_RESERVE)) {
 			//introduces_railtype_list:
 		}
 		*/
-		
+
 		//OpenTTD 1.2 23758
 		property {
 			toolbar_caption:            string(str_narrowgauge_toolbar_caption);
-			maintenance_cost:           8;
+			maintenance_cost:           7;
 			alternative_railtype_list:  ["NABN", "NACN", "NADN", "NAEN"];
 		}
-		
+
 		/*
 		*  GRAPHICS
 		*/
-		
+
 		graphics {
 			gui:                        switch_narrowgauge_gui;
 			track_overlay:              spriteset_narrowgauge_track_overlay_opengfx;

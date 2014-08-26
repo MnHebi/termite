@@ -27,7 +27,7 @@ spriteset (spriteset_metro_track_overlay_opengfx, "gfx/ogfx_railtypes.png") {
 switch (FEAT_RAILTYPES, SELF, switch_track_overlay_param_gui, param_gui) {
     1                       :spriteset_metro_track_overlay_ttd;
     spriteset_metro_track_overlay_opengfx;
-}*/ 
+}*/
 
 spriteset (spriteset_metro_underlay_opengfx, "gfx/ogfx_railtypes.png") {
     template_underlay(10,60)
@@ -122,13 +122,13 @@ if (railtype_available("SAA3") || (loading_stage == LOADING_STAGE_RESERVE)) {
 												 "SAAZ", "SSAZ", "SUAZ"];
 			powered_railtype_list:          ["SAAZ", "SSAZ", "SUAZ"];
 		}
-		
+
 		//OpenTTD 1.1 19307
 		property {
-			construction_cost:          12;
+			construction_cost:          10;
 			map_colour:                 0x25;
 		}
-		
+
 		//OpenTTD 1.1 21866
 		/*
 		property {
@@ -138,26 +138,26 @@ if (railtype_available("SAA3") || (loading_stage == LOADING_STAGE_RESERVE)) {
 			//introduces_railtype_list:["SAAZ", "SSAZ", "SUAZ"];
 		}
 		*/
-		
+
 		//OpenTTD 1.2 23758
 		property {
 			toolbar_caption:            string(str_metrotrack_toolbar_caption);
-			maintenance_cost:           12;
-			alternative_railtype_list:  ["3RDR", "MTRO", 
+			maintenance_cost:           10;
+			alternative_railtype_list:  ["3RDR", "MTRO",
 										 "SAA3", "SAB3", "SAC3", "SAD3", "SAE3"];
 		}
-		
+
 		//disallow level crossings
 		if (param_levelcrossings == 0) {
 			property {
 				railtype_flags:             bitmask(RAILTYPE_FLAG_NO_LEVEL_CROSSING);
 			}
 		}
-		
+
 		/*
 		*  GRAPHICS
 		*/
-		
+
 		graphics {
 			gui:                        switch_metro_gui;
 			track_overlay:              spriteset_metro_track_overlay_opengfx;
