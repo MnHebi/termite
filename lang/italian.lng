@@ -8,41 +8,41 @@ STR_GRF_NAME                    :{TITLE}
 STR_GRF_DESCRIPTION             :{SILVER}termite{}{}{BLACK}Mangia i vostri binari dal 2014.
 STR_GRF_URL             :http://dev.openttdcoop.org/projects/termite
 
-str_low_version         :Il vostro OpenTTD é antico. Aggiornatelo per godere di tutte le caratteristiche di questo pachetto NewGRF.
+str_low_version         :Il vostro OpenTTD è troppo vecchio. Si consiglia di aggiornarlo per apprezzare tutte le caratteristiche di questo set.
 #str_no_railtypes_enabled:All railtypes disabled. It doesn't make sense to load this set if you disable all its railtypes. Review the parameter settings or remove termite from the NewGRF configuration.
-str_no_free_slots       :Non ci sono posti liberi per tipi di binari. Avete caricato uno o piú pachetti di binari che usano tutti i posti per tipi di binari. Considerate rimuovere altri pachetti di binari o rimuovere termite.
-str_some_disabled       :Non ci sono sufficenti posti liberi per tipi di binari. Avete caricato uno o piú pachetti di binari che non lasciano sufficenti posti liberi per termite. Uno o piú tipi di binari non sono disponibili. Considerate rimuovere altri pachetti di binari o rimuovere termite.
+str_no_free_slots       :Non c'è più spazio per ulteriori tipi di ferrovie. Sono stati caricati altri set di linee ferroviarie che occupano tutti gli spazi disponibili. Si consiglia di rimuovere gli altri set di binari o di disabilitare questo set.
+str_some_disabled       :Non c'è più spazio per ulteriori tipi di ferrovie. Sono stati caricati altri set di linee ferroviarie che occupano tutti gli spazi disponibili. Uno o più tipi di linee ferroviarie di questo set non possono essere usati. Si consiglia di rimuovere gli altri set di binari, oppure di disabilitare questo set.
 
-str_param_gui_name              :Stile del interfaccia
-str_param_gui_desc              :Selezionate il stile dei bottoni e cursori forniti da questo pachetto.
+str_param_gui_name              :Stile dell'interfaccia
+str_param_gui_desc              :Selezionate il stile dei pulsanti e cursori.
 str_param_opengfx               :OpenGFX
 str_param_ttd                   :TTD
 
-str_param_levelcrossings_name   :Passaggi a livello per metro
-str_param_levelcrossings_desc   :Permettere o vietare (difetto) la costruzione dei passaggi a livello sui binari metro.
+str_param_levelcrossings_name   :Passaggi a livello su linee suburbane
+str_param_levelcrossings_desc   :Permette o vieta (predefinito) i passaggi a livello sulle linee suburbane.
 
-str_param_customsignals_name    :Segnali metro personalizzati
-str_param_customsignals_desc    :Attivare (difetto) o disattivare i segnali personalizzati per tipi ti binari metro.
+str_param_customsignals_name    :Segnali specifici per linee suburbane
+str_param_customsignals_desc    :Attivare (predefinito) o disattivare i segnali specifici per le linee suburbane.
 
-str_param_otherengines_name     :Permettere altri treni su binari metro
-str_param_otherengines_desc     :Selezionate quali altri tipi di treni (a secondo i tipi di binari) vuolete permettere su binari betro. I treni saranno alimentati soltanto se c'é un'alimentazione compatibile sui binari metro scelti. Questa caratteristica funziona corettamente soltanto con i pachetti di binari supportati. Supportati al momento: Binari Olandesi.
+str_param_otherengines_name     :Compatibilità con altri treni
+str_param_otherengines_desc     :Sceglie quali altri tipi di treni (identificati dal tipo di linea) possono circolare sulle ferrovie suburbane. I treni avranno bisogno di una fonte di alimentazione compatibile. Quest'opzione funziona correttamente solo per i binari standard di OTTD e per i tipi di binari supportati. Attualmente, sono supportati i "Binari olandesi".
 str_param_otherengines_off      :Disattivato
-str_param_otherengines_RAIL     :Solo binari non elettrificati
-str_param_otherengines_ELRL     :Solo binari elettrificati
-str_param_otherengines_RAILELRL :Entrambi binari (non)elettrificati (difetto)
+str_param_otherengines_RAIL     :Solo linee non elettrificate
+str_param_otherengines_ELRL     :Solo linee elettrificate
+str_param_otherengines_RAILELRL :Entrambi i tipi di linee (predefinito)
 
 #metro track strings
-str_metrotrack_name                             :Binari metro
-str_metrotrack_toolbar_caption                  :Costruzione dei binari metro
-str_metrotrack_menu_text                        :Costruzione dei binari metro
-str_metrotrack_build_window_caption             :Veicoli metro nuovi
-str_metrotrack_autoreplace_text                 :Veicoli metro
-str_metrotrack_new_engine_text                  :metro
+str_metrotrack_name                             :Linee ferroviarie suburbane
+str_metrotrack_toolbar_caption                  :Costruzione di linee suburbane
+str_metrotrack_menu_text                        :Costruzione di linee ferroviarie suburbane
+str_metrotrack_build_window_caption             :Nuovi veicoli della ferrovia suburbana
+str_metrotrack_autoreplace_text                 :Veicoli della ferrovia suburbana
+str_metrotrack_new_engine_text                  :ferrovia suburbana
 
 #narrowgauge track strings
-str_narrowgauge_name                            :Binari a scartamento ridotto
-str_narrowgauge_toolbar_caption                 :Costruzione dei binari a scartamento ridotto
-str_narrowgauge_menu_text                       :Costruzione dei binari a scartamento ridotto
-str_narrowgauge_build_window_caption            :Veicoli a scartamento ridotto nuovi
+str_narrowgauge_name                            :Linee a scartamento ridotto
+str_narrowgauge_toolbar_caption                 :Costruzione di linee a scartamento ridotto
+str_narrowgauge_menu_text                       :Costruzione di linee a scartamento ridotto
+str_narrowgauge_build_window_caption            :Nuovi veicoli a scartamento ridotto
 str_narrowgauge_autoreplace_text                :Veicoli a scartamento ridotto
 str_narrowgauge_new_engine_text                 :scartamento ridotto
