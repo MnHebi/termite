@@ -112,8 +112,10 @@ if (railtype_available("NAAN") || (loading_stage == LOADING_STAGE_RESERVE)) {
 			speed_limit:                    0;
 			acceleration_model:             ACC_MODEL_RAIL;
 			//set compatible and powered
-			compatible_railtype_list:       ["NABN", "NACN", "NADN", "NAEN"];
-			//powered_railtype_list:
+			compatible_railtype_list:       ["NABN", "NACN", "NADN", "NAEN",
+                                             "NAAE", "NABE", "NACE", "NADE", "NAEE"];
+			powered_railtype_list:          ["NABN", "NACN", "NADN", "NAEN",
+                                             "NAAE", "NABE", "NACE", "NADE", "NAEE"];
 		}
 
 		//OpenTTD 1.1 19307

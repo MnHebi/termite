@@ -91,6 +91,8 @@ Graphics:
 		The metro signals are by FooBar.
 	The narrow gauge tracks are from Narrow Gauge Track Types 1.0 by Oberhumer:
 		Graphics in this set are byDandan, Onodera, Sanchimaru for the Japan Set.
+	The depot graphics are from the UK Track Set by pikkabird, who used graphics
+	from FIRS by andythenorth et al. for the depots.
 	Some graphics are borrowed from Transport Tycoon Deluxe, a game without which
 	this set would have never existed, by Chris Sawyer with graphics from Simon Foster.
 		Use of these graphics is considered fair use.
@@ -108,7 +110,7 @@ Source hosting:
 ---------------
 
 termite, an OpenTTD track set
-Copyright (C) 2014 FooBar and others
+Copyright (C) 2014-2015 FooBar, andythenorth and others
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
