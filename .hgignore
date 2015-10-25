@@ -22,6 +22,7 @@ Makefile.local
 
 # NML intermediate files
 parsetab.py
+.nmlcache/*
 
 # Ignore directories from bundle creation / install:
 termite-*
