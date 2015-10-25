@@ -46,3 +46,5 @@ str_narrowgauge_menu_text                       :Izgradnja uskotračne pruge
 str_narrowgauge_build_window_caption            :Nova uskotračna vozila
 str_narrowgauge_autoreplace_text                :Uskotračna vozila
 str_narrowgauge_new_engine_text                 :uski kolosijek
+
+#narrowgauge electrified track strings

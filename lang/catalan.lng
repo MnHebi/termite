@@ -45,3 +45,5 @@ str_narrowgauge_menu_text                       :Construcció de via estreta
 str_narrowgauge_build_window_caption            :Nous Vehicles de Via Estreta
 str_narrowgauge_autoreplace_text                :Vehicles de Via Estreta
 str_narrowgauge_new_engine_text                 :via estreta
+
+#narrowgauge electrified track strings

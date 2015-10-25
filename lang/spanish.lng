@@ -45,3 +45,5 @@ str_narrowgauge_menu_text                       :Construcción de Vías Estrecha
 str_narrowgauge_build_window_caption            :Nuevos Vehículos de Vía Estrecha
 str_narrowgauge_autoreplace_text                :Vehículos de Vía Estrecha
 str_narrowgauge_new_engine_text                 :vía estrecha
+
+#narrowgauge electrified track strings

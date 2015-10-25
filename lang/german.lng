@@ -45,3 +45,5 @@ str_narrowgauge_menu_text                       :Schmalspurgleisbau
 str_narrowgauge_build_window_caption            :Neue Schmalspurfahrzeuge
 str_narrowgauge_autoreplace_text                :Schmalspurfahrzeuge
 str_narrowgauge_new_engine_text                 :Schmalspur
+
+#narrowgauge electrified track strings

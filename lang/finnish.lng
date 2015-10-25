@@ -44,3 +44,5 @@ str_narrowgauge_menu_text                       :Kapearaiteisen rautatien rakenn
 str_narrowgauge_build_window_caption            :Uudet kapearaiteiset kulkuneuvot
 str_narrowgauge_autoreplace_text                :Kapearaiteiset kulkuneuvot
 str_narrowgauge_new_engine_text                 :kapearaiteinen
+
+#narrowgauge electrified track strings

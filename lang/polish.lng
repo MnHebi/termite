@@ -46,3 +46,5 @@ str_narrowgauge_menu_text                       :Budowa linii wąskotorowej
 str_narrowgauge_build_window_caption            :Nowe pojazdy wąskotorowe
 str_narrowgauge_autoreplace_text                :Pojazdy wąskotorowe
 str_narrowgauge_new_engine_text                 :wąskotorowy
+
+#narrowgauge electrified track strings

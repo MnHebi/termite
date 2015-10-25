@@ -46,3 +46,5 @@ str_narrowgauge_menu_text                       :Costruzione di linee a scartame
 str_narrowgauge_build_window_caption            :Nuovi veicoli a scartamento ridotto
 str_narrowgauge_autoreplace_text                :Veicoli a scartamento ridotto
 str_narrowgauge_new_engine_text                 :scartamento ridotto
+
+#narrowgauge electrified track strings

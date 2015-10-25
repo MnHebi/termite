@@ -44,3 +44,5 @@ str_narrowgauge_menu_text                       :Bouw smalspoor
 str_narrowgauge_build_window_caption            :Nieuwe smalspoorvoertuigen
 str_narrowgauge_autoreplace_text                :Smalspoorvoertuigen
 str_narrowgauge_new_engine_text                 :smalspoorvoertuigen
+
+#narrowgauge electrified track strings
