@@ -47,3 +47,5 @@ str_narrowgauge_autoreplace_text                :Vehículos de Vía Estrecha
 str_narrowgauge_new_engine_text                 :vía estrecha
 
 #narrowgauge electrified track strings
+str_narrowgaugeelectrified_name                 :Vías Estrechas Electrificadas
+str_narrowgaugeelectrified_menu_text            :Construcción de Vías Estrechas Electrificadas
