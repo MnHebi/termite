@@ -48,4 +48,6 @@ str_narrowgauge_new_engine_text                 :vía estrecha
 
 #narrowgauge electrified track strings
 str_narrowgaugeelectrified_name                 :Vías Estrechas Electrificadas
+str_narrowgaugeelectrified_toolbar_caption      :Construcción de Vías Estrechas Electrificadas
 str_narrowgaugeelectrified_menu_text            :Construcción de Vías Estrechas Electrificadas
+str_narrowgaugeelectrified_build_window_caption :Nuevos Vehículos de Vías Estrechas Electrificadas
