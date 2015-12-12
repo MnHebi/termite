@@ -39,10 +39,16 @@ str_metrotrack_new_engine_text                  :metrovoertuig
 
 #narrowgauge track strings
 str_narrowgauge_name                            :Smalspoor
-str_narrowgauge_toolbar_caption                 :Bouw smalsporen
-str_narrowgauge_menu_text                       :Bouw smalspoor
+str_narrowgauge_toolbar_caption                 :Bouw smalspoorwegen
+str_narrowgauge_menu_text                       :Bouw smalspoorwegen
 str_narrowgauge_build_window_caption            :Nieuwe smalspoorvoertuigen
 str_narrowgauge_autoreplace_text                :Smalspoorvoertuigen
 str_narrowgauge_new_engine_text                 :smalspoorvoertuigen
 
 #narrowgauge electrified track strings
+str_narrowgaugeelectrified_name                 :Geëlektrificeerd Smalspoor
+str_narrowgaugeelectrified_toolbar_caption      :Bouw geëlektrificeerd smalspoor
+str_narrowgaugeelectrified_menu_text            :Bouw geëlektrificeerde smalspoorwegen
+str_narrowgaugeelectrified_build_window_caption :Nieuwe elektrische smalspoorvoertuigen
+str_narrowgaugeelectrified_autoreplace_text     :Elektrische smalspoorvoertuigen
+str_narrowgaugeelectrified_new_engine_text      :elektrisch smalspoor
