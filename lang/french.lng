@@ -47,3 +47,9 @@ str_narrowgauge_autoreplace_text                :Véhicules pour voie étroite
 str_narrowgauge_new_engine_text                 :voie étroite
 
 #narrowgauge electrified track strings
+str_narrowgaugeelectrified_name                 :Voie étroite électrifiée
+str_narrowgaugeelectrified_toolbar_caption      :Construction de voies étroites électrifiées
+str_narrowgaugeelectrified_menu_text            :Construction de voies étroites électrifiées
+str_narrowgaugeelectrified_build_window_caption :Nouveaux véhicules pour voie étroite électrifiée
+str_narrowgaugeelectrified_autoreplace_text     :Véhicules pour voie étroite électrifiée
+str_narrowgaugeelectrified_new_engine_text      :voie étroite électrifiée
