@@ -47,3 +47,9 @@ str_narrowgauge_autoreplace_text                :Schmalspurfahrzeuge
 str_narrowgauge_new_engine_text                 :Schmalspur
 
 #narrowgauge electrified track strings
+str_narrowgaugeelectrified_name                 :Elektrifiziertes Schmalspurgleis
+str_narrowgaugeelectrified_toolbar_caption      :Elektrifizierter Schmalspurgleisbau
+str_narrowgaugeelectrified_menu_text            :Elektrifizierter Schmalspurgleisbau
+str_narrowgaugeelectrified_build_window_caption :Neue Fahrzeuge für elektrifizierte Schmalspurgleise
+str_narrowgaugeelectrified_autoreplace_text     :Fahrzeuge für elektrifizierte Schmalspurgleise
+str_narrowgaugeelectrified_new_engine_text      :Elektrifiziertes Schmalspurgleis
