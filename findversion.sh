@@ -26,7 +26,7 @@ if [ "$#" != "0" ]; then
 Usage: ./findversion.sh
 Finds the current revision and if the code is modified.
 
-Output: <HASH>\t<VERSION>\t<MODIFIED>\t<TAG>\t<DISPLAY_VERSION>\t<BRANCH>
+Output: <HASH>\t<VERSION>\t<MODIFIED>\t<TAG>\t<DISPLAY_VERSION>\t<BRANCH>\t<DATE>
 HASH
     a string unique to the version of the code the current checkout is
     based on. The exact format of this string depends on the version
@@ -62,6 +62,8 @@ DISPLAY_VERSION
     The version string shown to the user of the NewGRF
 BRANCH
     The branch the version is based on
+DATE
+    The date of the last commit in ISO format
 
 
 By setting the AWK environment variable, a caller can determine which
@@ -86,15 +88,16 @@ MODIFIED=""
 REPO_DATE="2000,1,1"
 if [ -d "$ROOT_DIR/.hg" ]; then
 	# We are a hg checkout
-	if [ -n "`hg status -S | grep -v '^?'`" ]; then
+	if [ -n "`HGPLAIN= hg status -S | grep -v '^?'`" ]; then
 		MODIFIED="M"
 	fi
-	HASH=`LC_ALL=C hg id -i | cut -c1-12`
+	HASH=`LC_ALL=C HGPLAIN= hg id -i | cut -c1-12`
 	REV="h`echo $HASH | cut -c1-8`"
 	BRANCH="`hg branch | sed 's@^default$@@'`"
-	TAG="`hg id -t | grep -v 'tip$'`"
-	REPO_DATE="`hg log -r$HASH --template='{date|shortdate}' | sed s/-/,/g | sed s/,0/,/g`"
-	VERSION=`python -c "from datetime import date; print (date($REPO_DATE)-date(2000,1,1)).days"`
+	TAG="`HGPLAIN= hg id -t | grep -v 'tip$'`"
+	ISO_DATE="`HGPLAIN= hg log -r$HASH --template=\"{date|shortdate}\"`"
+	REPO_DATE="`echo ${ISO_DATE} | sed s/-/,/g | sed s/,0/,/g`"
+	VERSION=`python -c "from datetime import date; print (date($REPO_DATE)-date(2000,1,1)).days)"`
 	DISPLAY_VERSION="v${VERSION}"
 	if [ -n "$TAG" ]; then
 		BRANCH=""
@@ -112,6 +115,7 @@ else
 	BRANCH=""
 	TAG=""
 	DISPLAY_VERSION="noRev"
+	ISO_DATE=""
 fi
 
 DISPLAY_VERSION="${DISPLAY_VERSION}${MODIFIED}"
@@ -121,7 +125,7 @@ if [ -n "$BRANCH" ]; then
 fi
 
 if [ -z "${TAG}" -a -n "${HASH}" ]; then
-	DISPLAY_VERSION="${DISPLAY_VERSION} (${HASH})"
+	DISPLAY_VERSION="${DISPLAY_VERSION}-h${HASH}"
 fi
 
-echo "$HASH	$VERSION	$MODIFIED	$TAG	$DISPLAY_VERSION	$BRANCH"
+echo "$HASH	$VERSION	$MODIFIED	$TAG	$DISPLAY_VERSION	$BRANCH	$ISO_DATE"
