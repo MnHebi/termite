@@ -97,7 +97,7 @@ if [ -d "$ROOT_DIR/.hg" ]; then
 	TAG="`HGPLAIN= hg id -t | grep -v 'tip$'`"
 	ISO_DATE="`HGPLAIN= hg log -r$HASH --template=\"{date|shortdate}\"`"
 	REPO_DATE="`echo ${ISO_DATE} | sed s/-/,/g | sed s/,0/,/g`"
-	VERSION=`python -c "from datetime import date; print (date($REPO_DATE)-date(2000,1,1)).days)"`
+	VERSION=`python -c "from datetime import date; print ((date($REPO_DATE)-date(2000,1,1)).days)"`
 	DISPLAY_VERSION="v${VERSION}"
 	if [ -n "$TAG" ]; then
 		BRANCH=""
