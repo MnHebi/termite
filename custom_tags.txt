@@ -1,0 +1,6 @@
+VERSION        :noRev
+VERSION_STRING :noRev
+TITLE          :termite noRev
+FILENAME       :termite.grf
+REPO_HASH      :
+NEWGRF_VERSION :0
