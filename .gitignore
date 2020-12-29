@@ -1,0 +1,6 @@
+docs/
+.nmlcache/
+.chameleon_cache/
+
+# The local makefile should be ignored:
+Makefile.local
