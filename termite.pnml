@@ -26,6 +26,7 @@
 #include "src/metro.pnml"
 #include "src/narrowgauge.pnml"
 #include "src/narrowgaugeelectrified.pnml"
+#include "src/veryhighspeed.pnml"
 
 //#include "src/othervehicles.pnml"
 

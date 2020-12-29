@@ -51,3 +51,5 @@ str_narrowgaugeelectrified_menu_text            :Electrified Narrow Gauge track 
 str_narrowgaugeelectrified_build_window_caption :New Electrified Narrow Gauge Vehicles
 str_narrowgaugeelectrified_autoreplace_text     :Electrified Narrow Gauge Vehicles
 str_narrowgaugeelectrified_new_engine_text      :electrified narrow gauge
+
+STR_UNIV                                        :TEST
