@@ -2,24 +2,20 @@
 //enable ALL xussr vehicles
 
     if (grf_current_status("\41\4B\41\08") || grf_future_status("\41\4B\41\08")) {
-		if (railtype_available("RAIL")) {
-			item (FEAT_RAILTYPES, item_RAIL) {
+			item (FEAT_RAILTYPES, item_BAAN) {
 				property {
-					label:                          "RAIL";
+					label:                          "BAAN";
 					alternative_railtype_list:      ["RLA0", "RLA1", "RLA2", "RLA3"];
-					compatible_railtype_list:       ["RAIL", "ELRL"];
-					powered_railtype_list:          ["RAIL", "ELRL"];
+					compatible_railtype_list:       ["BAAN", "BAA3"];
+					powered_railtype_list:          ["BAAN", "BAA3"];
 				}
 			}
-		}
-		if (railtype_available("ELRL")) {
-			item (FEAT_RAILTYPES, item_ELRL) {
+			item (FEAT_RAILTYPES, item_BAA3) {
 				property {
-					label:                          "ELRL";
+					label:                          "BAA3";
 					alternative_railtype_list:      ["ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S"];
-					compatible_railtype_list:       ["RAIL", "ELRL"];
-					powered_railtype_list:          ["ELRL"];
+					compatible_railtype_list:       ["BAAN", "BAA3"];
+					powered_railtype_list:          ["BAAN"];
 				}
 			}
-        }
 	}
