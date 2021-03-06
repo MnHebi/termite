@@ -20,13 +20,13 @@
 			acceleration_model:             ACC_MODEL_RAIL;
 			maintenance_cost:           	13;
 			alternative_railtype_list:      ["RLA0", "RLA1", "RLA2", "RLA3"];
-			compatible_railtype_list:       ["BAAN", "BAA3"];
-			powered_railtype_list:          ["BAAN", "BAA3"];
+			compatible_railtype_list:       ["RLA0", "RLA1", "RLA2", "RLA3", "ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S", "BAAN", "BAA3"];
+			powered_railtype_list:          ["RLA0", "RLA1", "RLA2", "RLA3", "ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S", "BAAN", "BAA3"];
 			}
 			if (grf_current_status("\4D\43\54\4D") || grf_future_status("\4D\43\54\4D")) {
 			        property {
 					alternative_railtype_list:		["BBAN", "BCAN", "BDAN", "BEAN"];
-                    compatible_railtype_list:       ["BBAN", "BCAN", "BDAN", "BEAN", "BAAD", "BBAD", "BCAD", "BDAD", "BEAD", "DAAN", "DAAD"];
+                    compatible_railtype_list:       ["BBAN", "BCAN", "BDAN", "BEAN", "BAAD", "BBAD", "BCAD", "BDAD", "BEAD",  "DAAN", "DAAD"];
                     powered_railtype_list:          ["BBAN", "BCAN", "BDAN", "BEAN", "BAAD", "BBAD", "BCAD", "BDAD", "BEAD", "DAAN", "DAAD"];
                 }
 			}
@@ -49,8 +49,8 @@
 			acceleration_model:             ACC_MODEL_RAIL;
 			maintenance_cost:           	13;
 			alternative_railtype_list:      ["ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S"];
-			compatible_railtype_list:       ["BAAN", "BAA3"];
-			powered_railtype_list:          ["BAAN"];
+			compatible_railtype_list:       ["RLA0", "RLA1", "RLA2", "RLA3", "ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S", "BAAN", "BAA3"];
+			powered_railtype_list:          ["ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S", "BAA3"];
 			}
 			if (grf_current_status("\4D\43\54\4D") || grf_future_status("\4D\43\54\4D")) {
 			        property {
