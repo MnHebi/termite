@@ -30,3 +30,4 @@
 //#include "src/othervehicles.pnml"
 
 #include "src/footer.pnml"
+#include "src/xussr.pnml"
