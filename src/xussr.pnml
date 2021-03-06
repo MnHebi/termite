@@ -2,20 +2,62 @@
 //enable ALL xussr vehicles
 
     if (grf_current_status("\41\4B\41\08") || grf_future_status("\41\4B\41\08")) {
-			item (FEAT_RAILTYPES, item_BAAN) {
-				property {
-					label:                          "BAAN";
-					alternative_railtype_list:      ["RLA0", "RLA1", "RLA2", "RLA3"];
-					compatible_railtype_list:       ["BAAN", "BAA3"];
-					powered_railtype_list:          ["BAAN", "BAA3"];
-				}
+		item (FEAT_RAILTYPES, item_BAAN) {
+			property {
+			label:                          "BAAN";
+			name:                           string(str_broadgauge_name);
+			menu_text:                      string(str_broadgauge_menu_text);
+			build_window_caption:           string(str_broadgauge_build_window_caption);
+			autoreplace_text:               string(str_broadgauge_autoreplace_text);
+			new_engine_text:                string(str_broadgauge_new_engine_text);
+			toolbar_caption:            	string(str_broadgauge_toolbar_caption);
+			railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+			curve_speed_multiplier:         1;
+			station_graphics:               RAILTYPE_STATION_NORMAL;
+			speed_limit:                    0;
+			construction_cost:          	13;
+			map_colour:                 	0x54;
+			acceleration_model:             ACC_MODEL_RAIL;
+			maintenance_cost:           	13;
+			alternative_railtype_list:      ["RLA0", "RLA1", "RLA2", "RLA3"];
+			compatible_railtype_list:       ["BAAN", "BAA3"];
+			powered_railtype_list:          ["BAAN", "BAA3"];
 			}
-			item (FEAT_RAILTYPES, item_BAA3) {
-				property {
-					label:                          "BAA3";
-					alternative_railtype_list:      ["ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S"];
-					compatible_railtype_list:       ["BAAN", "BAA3"];
-					powered_railtype_list:          ["BAAN"];
-				}
+			if (grf_current_status("\4D\43\54\4D") || grf_future_status("\4D\43\54\4D")) {
+			        property {
+					alternative_railtype_list:		["BBAN", "BCAN", "BDAN", "BEAN"];
+                    compatible_railtype_list:       ["BBAN", "BCAN", "BDAN", "BEAN", "BAAD", "BBAD", "BCAD", "BDAD", "BEAD", "DAAN", "DAAD"];
+                    powered_railtype_list:          ["BBAN", "BCAN", "BDAN", "BEAN", "BAAD", "BBAD", "BCAD", "BDAD", "BEAD", "DAAN", "DAAD"];
+                }
 			}
+		}
+		item (FEAT_RAILTYPES, item_BAA3) {
+			property {
+			label:                          "BAA3";
+			name:                           string(str_broadgaugeelectrified_name);
+			menu_text:                      string(str_broadgaugeelectrified_menu_text);
+			build_window_caption:           string(str_broadgaugeelectrified_build_window_caption);
+			autoreplace_text:               string(str_broadgaugeelectrified_autoreplace_text);
+			new_engine_text:                string(str_broadgaugeelectrified_new_engine_text);
+			toolbar_caption:            	string(str_broadgaugeelectrified_toolbar_caption);
+			railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+			curve_speed_multiplier:         1;
+			station_graphics:               RAILTYPE_STATION_NORMAL;
+			speed_limit:                    0;
+			construction_cost:          	13;
+			map_colour:                 	0xB6;
+			acceleration_model:             ACC_MODEL_RAIL;
+			maintenance_cost:           	13;
+			alternative_railtype_list:      ["ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S"];
+			compatible_railtype_list:       ["BAAN", "BAA3"];
+			powered_railtype_list:          ["BAAN"];
+			}
+			if (grf_current_status("\4D\43\54\4D") || grf_future_status("\4D\43\54\4D")) {
+			        property {
+					alternative_railtype_list:		["BAAD", "BBAD", "BCAD", "BDAD", "BEAD"];
+                    compatible_railtype_list:       ["BBAN", "BCAN", "BDAN", "BEAN", "BAAD", "BBAD", "BCAD", "BDAD", "BEAD", "DAAN", "DAAD"];
+                    powered_railtype_list:          ["BAAD", "BBAD", "BCAD", "BDAD", "BEAD", "DAAD"];
+                }
+			}
+		}
 	}
