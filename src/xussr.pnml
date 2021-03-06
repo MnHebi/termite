@@ -10,29 +10,6 @@
 					compatible_railtype_list:       ["RAIL", "ELRL"];
 					powered_railtype_list:          ["RAIL", "ELRL"];
 				}
-				//if moved to mono or maglev
-				if (param_metro == 2) {
-					property {
-						compatible_railtype_list:       ["MONO"];
-					}
-				}
-				if (param_metro == 3) {
-					property {
-						compatible_railtype_list:       ["MGLV"];
-					}
-				}
-				if (param_metrowithcatenary == 2) {
-					property {
-						compatible_railtype_list:       ["MONO"];
-						powered_railtype_list:          ["MONO"];
-					}
-				}
-				if (param_metrowithcatenary == 3) {
-					property {
-						compatible_railtype_list:       ["MGLV"];
-						powered_railtype_list:          ["MGLV"];
-					}
-				}
 			}
 		}
 		if (railtype_available("ELRL")) {
@@ -42,29 +19,6 @@
 					alternative_railtype_list:      ["ERd1", "ERd2", "ERd3", "ERD1", "ERD2", "ERD3", "ERA1", "ERA2", "ERA3", "ERA4", "ERa1", "ERa2", "ERa3", "ERa4", "ER2D", "ER2S", "ER3a", "ER2s", "ER3D", "ER4S"];
 					compatible_railtype_list:       ["RAIL", "ELRL"];
 					powered_railtype_list:          ["ELRL"];
-				}
-				//if moved to mono or maglev
-				if (param_metro == 2) {
-					property {
-						compatible_railtype_list:       ["MONO"];
-					}
-				}
-				if (param_metro == 3) {
-					property {
-						compatible_railtype_list:       ["MGLV"];
-					}
-				}
-				if (param_metrowithcatenary == 2) {
-					property {
-						compatible_railtype_list:       ["MONO"];
-						powered_railtype_list:          ["MONO"];
-					}
-				}
-				if (param_metrowithcatenary == 3) {
-					property {
-						compatible_railtype_list:       ["MGLV"];
-						powered_railtype_list:          ["MGLV"];
-					}
 				}
 			}
         }
