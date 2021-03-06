@@ -51,3 +51,19 @@ str_narrowgaugeelectrified_menu_text            :Electrified Narrow Gauge track 
 str_narrowgaugeelectrified_build_window_caption :New Electrified Narrow Gauge Vehicles
 str_narrowgaugeelectrified_autoreplace_text     :Electrified Narrow Gauge Vehicles
 str_narrowgaugeelectrified_new_engine_text      :electrified narrow gauge
+
+#broadgauge track strings
+str_broadgauge_name                            :Broad Gauge Track
+str_broadgauge_toolbar_caption                 :Broad Gauge Track Construction
+str_broadgauge_menu_text                       :Broad Gauge track construction
+str_broadgauge_build_window_caption            :New Broad Gauge Vehicles
+str_broadgauge_autoreplace_text                :Broad Gauge Vehicles
+str_broadgauge_new_engine_text                 :broad gauge
+
+#broadgauge electrified track strings
+str_broadgaugeelectrified_name                 :Electrified Broad Gauge Track
+str_broadgaugeelectrified_toolbar_caption      :Electrified Broad Gauge Track Construction
+str_broadgaugeelectrified_menu_text            :Electrified Broad Gauge track construction
+str_broadgaugeelectrified_build_window_caption :New Electrified Broad Gauge Vehicles
+str_broadgaugeelectrified_autoreplace_text     :Electrified Broad Gauge Vehicles
+str_broadgaugeelectrified_new_engine_text      :electrified broad gauge
